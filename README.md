@@ -46,7 +46,7 @@ make train-nlu
 make train-core
 ```
 + This will train the Rasa Core model and store it inside the `/models/dialogue` folder of your project directory.
-3. In a new terminal start the server for the custom action by running:
+3. Open a new terminal start the server for the custom action by running(*Keep this terminal running*):
 ```php
 make actions
 ```
@@ -81,3 +81,4 @@ your_url_here/webhooks/slack/webhook
 make cmdline
 ```
 And you should now be able to talk to your chatbot in Slack!
+**Note**: The bot runs on the terminal, so you have to download Vietnamese typing software on the terminal to be able to communicate with the Bot.[Gõ Tiếng Việt](https://www.trankynam.com/gotv/)
