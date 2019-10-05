@@ -64,7 +64,7 @@ slack:
 <br>[***Download ngrok***](https://ngrok.com/download)
 
 2. Setup ngrok for the port that the action server is using by the following command.
-You can customize the port as you like. Here I choose port 5002(If you choose another port, set the port parameters correctly in Makefile):
+You can customize the port as you like.(*If you choose another port, set the port parameters correctly in Makefile*). Here I choose port 5002:
 ```
 ngrok http 5002
 ```
@@ -79,5 +79,5 @@ make cmdline
 your_url_here/webhooks/slack/webhook
 ```
 ![](https://github.com/namnguyenduc/BotSendo/blob/master/images/event_subs.png)
-And you should now be able to talk to your chatbot in Slack!
+<br>And you should now be able to talk to your chatbot in Slack!
 <br>**Note**: The bot runs on the terminal, so you have to download Vietnamese typing software on the terminal to be able to communicate with the Bot.&ensp;[Gõ Tiếng Việt](https://www.trankynam.com/gotv/)
