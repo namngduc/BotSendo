@@ -60,3 +60,10 @@ slack:
   slack_token: "Bot User OAuth Access Token"
   slack_channel: 
 ```
+[***Dowload ngrok***](https://ngrok.com/download)
+2. Setup ngrok for the port that the action server is using by the following command:
+```
+ngrok http 5055
+```
+This will give you an output like the following:
+![](https://github.com/namnguyenduc/BotSendo/blob/master/images/Capture.PNG)
