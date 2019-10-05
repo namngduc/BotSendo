@@ -32,7 +32,7 @@
 - Lấy cho tôi một số sản phẩm về [áo khoác](category)?
 - Nói cho tôi một số sản phẩm mới nhất về [đồng hồ](category)?
 - Giá [Laptop cũ](category) ?
-- Báo cho tôi  một số [Laptop mới] trên Sendo?
+- Báo cho tôi  một số [Laptop mới](category) trên Sendo?
 - Nói cho tôi một số thứ về [giày dép](category)
 - Nói cho tôi một số sản phẩm về [phụ kiện công nghệ](category)
 - Hãy cho tôi biết các thông tin mới [áo sơ mi](category)
