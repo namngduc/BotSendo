@@ -70,3 +70,14 @@ ngrok http 5002
 ```
 This will give you an output like the following:
 ![](https://github.com/namnguyenduc/BotSendo/blob/master/images/Capture.PNG)
+3. Take the above url and paste it into the Events Subscription page of your slack app in the following format:
+```
+your_url_here/webhooks/slack/webhook
+```
+![](https://github.com/namnguyenduc/BotSendo/blob/master/images/event_subs.png)
+
+4. Now, the last step let's run command 
+```
+make cmdline
+```
+And you should now be able to talk to your chatbot in Slack!
