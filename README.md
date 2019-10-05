@@ -53,5 +53,5 @@ make actions
 + This will start the server for emulating the custom action.
 ## How to deploy to Slack
 1. Go to your Slack app's settings page and use the **Bot User OAuth Access Token**:
-![](http://)
+![](https://github.com/namnguyenduc/BotSendo/blob/master/images/bot_token.png)
 
