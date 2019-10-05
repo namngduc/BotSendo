@@ -64,7 +64,7 @@ slack:
 <br>[***Download ngrok***](https://ngrok.com/download)
 
 2. Setup ngrok for the port that the action server is using by the following command.
-You can customize the port as you like.(***If you choose another port, set the port parameters correctly in Makefile***). 
+You can customize the port as you like.(***If you choose another port, set the port parameters correctly in [Makefile](https://github.com/namnguyenduc/BotSendo/blob/master/Makefile)***). 
 <br>Here I choose port 5002:
 ```
 ngrok http 5002
