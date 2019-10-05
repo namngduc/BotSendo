@@ -77,7 +77,7 @@ your_url_here/webhooks/slack/webhook
 ![](https://github.com/namnguyenduc/BotSendo/blob/master/images/event_subs.png)
 
 4. Now, the last step let's run command 
-```
+```php
 make cmdline
 ```
 And you should now be able to talk to your chatbot in Slack!
