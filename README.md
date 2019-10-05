@@ -60,11 +60,13 @@ slack:
   slack_token: "Bot User OAuth Access Token"
   slack_channel: 
 ```
-[***Dowload ngrok***](https://ngrok.com/download)
+**Ngrok** is multiplatform tunneling, reverse proxy software that establishes secure tunnels from a public endpoint such as the internet to a locally running network service while capturing all traffic for detailed inspection and replay.
+[***Download ngrok***](https://ngrok.com/download)
 
-2. Setup ngrok for the port that the action server is using by the following command:
+2. Setup ngrok for the port that the action server is using by the following command.
+You can customize the port as you like. Here I choose port 5002:
 ```
-ngrok http 5055
+ngrok http 5002
 ```
 This will give you an output like the following:
 ![](https://github.com/namnguyenduc/BotSendo/blob/master/images/Capture.PNG)
