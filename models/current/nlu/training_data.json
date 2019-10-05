@@ -1,0 +1,811 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Chào"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "chào cậu"
+      },
+      {
+        "intent": "greet",
+        "text": "chào"
+      },
+      {
+        "intent": "hoi_ten",
+        "text": "tên gì"
+      },
+      {
+        "intent": "hoi_ten",
+        "text": "Tên cậu là gì?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "Tôi khỏe, bạn thì sao?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "Khỏe không cậu?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "khỏe không?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "bạn khỏe không"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "Tôi đang cần sự hỗ trợ."
+      },
+      {
+        "intent": "fine_normal",
+        "text": "Tôi muốn mua một vài sản phẩm trên Sendo"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "Hãy cần tìm kiếm một vài thứ"
+      },
+      {
+        "intent": "hoi_id",
+        "text": "Bạn có thể làm điều gì khác ?"
+      },
+      {
+        "intent": "hoi_id",
+        "text": "Tôi cần bạn hỗ trợ?"
+      },
+      {
+        "intent": "hoi_id",
+        "text": "Biết làm gì khác không?"
+      },
+      {
+        "intent": "hoi_id",
+        "text": "Bạn có thể tìm kiếm sản phẩm theo Id không?"
+      },
+      {
+        "intent": "hoi_id",
+        "text": "có tìm được sản phẩm theo ID?"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "áo khoác",
+            "entity": "category"
+          }
+        ],
+        "text": "Lấy cho tôi một số sản phẩm về áo khoác?"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "đồng hồ",
+            "entity": "category"
+          }
+        ],
+        "text": "Nói cho tôi một số sản phẩm mới nhất về đồng hồ?"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "Laptop cũ",
+            "entity": "category"
+          }
+        ],
+        "text": "Giá Laptop cũ ?"
+      },
+      {
+        "intent": "san_pham",
+        "text": "Báo cho tôi  một số [Laptop mới] trên Sendo?"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "giày dép",
+            "entity": "category"
+          }
+        ],
+        "text": "Nói cho tôi một số thứ về giày dép"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 31,
+            "end": 49,
+            "value": "phụ kiện công nghệ",
+            "entity": "category"
+          }
+        ],
+        "text": "Nói cho tôi một số sản phẩm về phụ kiện công nghệ"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "áo sơ mi",
+            "entity": "category"
+          }
+        ],
+        "text": "Hãy cho tôi biết các thông tin mới áo sơ mi"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "quần jean",
+            "entity": "category"
+          }
+        ],
+        "text": "Những gì đang xảy ra trong quần jean"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "bàn phím",
+            "entity": "category"
+          }
+        ],
+        "text": "Một số sản phẩm mới về bàn phím"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 22,
+            "end": 35,
+            "value": "điện gia dụng",
+            "entity": "category"
+          }
+        ],
+        "text": "Hãy cho biết sản phẩm điện gia dụng"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "điện thoại",
+            "entity": "category"
+          }
+        ],
+        "text": "Một số sản phẩm điện thoại"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "kính râm",
+            "entity": "category"
+          }
+        ],
+        "text": "Cho tôi một số sẩn phẩm kính râm"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 13,
+            "end": 30,
+            "value": "điện thoại Iphone",
+            "entity": "category"
+          }
+        ],
+        "text": "tìm sản phẩm điện thoại Iphone cho tôi"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "đồ chơi",
+            "entity": "category"
+          }
+        ],
+        "text": "đồ chơi"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "mũ lưỡi chai",
+            "entity": "category"
+          }
+        ],
+        "text": "mũ lưỡi chai"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Tivi",
+            "entity": "category"
+          }
+        ],
+        "text": "Tivi"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "máy xay",
+            "entity": "category"
+          }
+        ],
+        "text": "máy xay"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "phụ kiện tivi",
+            "entity": "category"
+          }
+        ],
+        "text": "phụ kiện tivi"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "loa",
+            "entity": "category"
+          }
+        ],
+        "text": "loa"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "máy chơi game",
+            "entity": "category"
+          }
+        ],
+        "text": "máy chơi game"
+      },
+      {
+        "intent": "san_pham",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "nhạc cụ",
+            "entity": "category"
+          }
+        ],
+        "text": "nhạc cụ"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "5",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Balo",
+            "entity": "category"
+          }
+        ],
+        "text": "Tìm kiếm cho tôi 5 về Balo"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "10",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 45,
+            "value": "Điện thoại samsung",
+            "entity": "category"
+          }
+        ],
+        "text": "Hãy cho tôi 10 sản phẩm về Điện thoại samsung"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "du lịch",
+            "entity": "category"
+          }
+        ],
+        "text": "Kiếm cho tôi 2 sản phẩm du lịch"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "1",
+            "entity": "number"
+          }
+        ],
+        "text": "1"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "number"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "number"
+          }
+        ],
+        "text": "3"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "number"
+          }
+        ],
+        "text": "4"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "number"
+          }
+        ],
+        "text": "5"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "6",
+            "entity": "number"
+          }
+        ],
+        "text": "6"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "7",
+            "entity": "number"
+          }
+        ],
+        "text": "7"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "8",
+            "entity": "number"
+          }
+        ],
+        "text": "8"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "9",
+            "entity": "number"
+          }
+        ],
+        "text": "9"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "10",
+            "entity": "number"
+          }
+        ],
+        "text": "10"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "12",
+            "entity": "number"
+          }
+        ],
+        "text": "12"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "13",
+            "entity": "number"
+          }
+        ],
+        "text": "13"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "14",
+            "entity": "number"
+          }
+        ],
+        "text": "14"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "15",
+            "entity": "number"
+          }
+        ],
+        "text": "15"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "16",
+            "entity": "number"
+          }
+        ],
+        "text": "16"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "17",
+            "entity": "number"
+          }
+        ],
+        "text": "17"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "18",
+            "entity": "number"
+          }
+        ],
+        "text": "18"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "19",
+            "entity": "number"
+          }
+        ],
+        "text": "19"
+      },
+      {
+        "intent": "san_pham_num",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "20",
+            "entity": "number"
+          }
+        ],
+        "text": "20"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "18524010",
+            "entity": "productid"
+          }
+        ],
+        "text": "Hãy tìm cho tôi Id 18524010"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "20626323",
+            "entity": "productid"
+          }
+        ],
+        "text": "Id 20626323"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "10840735",
+            "entity": "productid"
+          }
+        ],
+        "text": "Tìm Id 10840735"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "18807311",
+            "entity": "productid"
+          }
+        ],
+        "text": "ID18807311"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "19144326",
+            "entity": "productid"
+          }
+        ],
+        "text": "Id19144326"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "12501138",
+            "entity": "productid"
+          }
+        ],
+        "text": "Tìm kiếm 12501138"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "240000",
+            "entity": "productid"
+          }
+        ],
+        "text": "Tìm cho tôi sản phẩm có Id:240000"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "21788573",
+            "entity": "productid"
+          }
+        ],
+        "text": "Id:21788573"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "11119669",
+            "entity": "productid"
+          }
+        ],
+        "text": "ID:11119669"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "21856157",
+            "entity": "productid"
+          }
+        ],
+        "text": "21856157"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "20134322",
+            "entity": "productid"
+          }
+        ],
+        "text": "20134322"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "16875084",
+            "entity": "productid"
+          }
+        ],
+        "text": "16875084"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "10928963",
+            "entity": "productid"
+          }
+        ],
+        "text": "10928963"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "21217020",
+            "entity": "productid"
+          }
+        ],
+        "text": "21217020"
+      },
+      {
+        "intent": "find_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "20397866",
+            "entity": "productid"
+          }
+        ],
+        "text": "20397866"
+      },
+      {
+        "intent": "cam_on",
+        "text": "Cảm ơn bạn"
+      },
+      {
+        "intent": "bye",
+        "text": "Chào nhé"
+      },
+      {
+        "intent": "bye",
+        "text": "Tạm biệt"
+      },
+      {
+        "intent": "bye",
+        "text": "Stop"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
