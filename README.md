@@ -81,4 +81,4 @@ your_url_here/webhooks/slack/webhook
 make cmdline
 ```
 And you should now be able to talk to your chatbot in Slack!
-**Note**: The bot runs on the terminal, so you have to download Vietnamese typing software on the terminal to be able to communicate with the Bot.[Gõ Tiếng Việt](https://www.trankynam.com/gotv/)
+<br>**Note**: The bot runs on the terminal, so you have to download Vietnamese typing software on the terminal to be able to communicate with the Bot.&ensp[Gõ Tiếng Việt](https://www.trankynam.com/gotv/)
