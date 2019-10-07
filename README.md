@@ -71,7 +71,8 @@ ngrok http 5002
 ```
 This will give you an output like the following:
 ![](https://github.com/namnguyenduc/BotSendo/blob/master/images/Capture.PNG)
-3. Now, the last step let's run command 
+
+3. Now,let's run command 
 ```php
 make cmdline
 ```
