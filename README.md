@@ -60,7 +60,6 @@ this in the slack_credentials.yml file:
 ```
 slack:
   slack_token: "Bot User OAuth Access Token"
-  slack_channel: 
 ```
 **Ngrok** is multiplatform tunneling, reverse proxy software that establishes secure tunnels from a public endpoint such as the internet to a locally running network service while capturing all traffic for detailed inspection and replay.
 <br>[***Download ngrok***](https://ngrok.com/download)
