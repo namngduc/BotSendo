@@ -21,6 +21,8 @@ WINDOWS: $ activate botvi
 ## For dependencies
 ### Tensorflow (pipeline)
 `pip install rasa_nlu[tensorflow]`
+### Install bs4
+`pip install bs4`
 ## Files for Rasa NLU model
 * **data/nlu_vi.md** file contents training data for the NLU model.
 * **nlu_config.yml** file contains the configuration of the Rasa NLU pipeline:
