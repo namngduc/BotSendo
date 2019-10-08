@@ -1,0 +1,87 @@
+
+slots:
+  category:
+    type: text
+  number:
+    type: float
+    min_value: 1.0
+    max_value: 100.0
+  productid: 
+    type: float
+    min_value: 1.0
+    max_value: 99999999.0
+
+entities:
+- category
+- number
+- productid
+
+intents:
+- greet
+- hoi_ten
+- fine_ask
+- fine_normal
+- san_pham
+- san_pham_num
+- hoi_id
+- find_id
+- cam_on
+- bye
+
+actions:
+- action_restart
+- action_get_news
+- action_get_num
+- action_get_id
+- utter_ten
+- utter_greet
+- utter_reply
+- utter_help
+- utter_repfun
+- utter_ofc
+- utter_ofc_n
+- utter_awsid
+- utter_id
+- utter_bye
+- utter_default
+
+templates:
+  utter_greet:
+    - text: Chào,Bạn cảm thấy thế nào?
+    - text: Hello,ngày hôm nay tốt đẹp chứ?
+  utter_ten:
+    - text: Tôi tên là Ro Bo 😁
+  utter_repfun:
+    - text: Phục vụ mọi người là niếm vui của tôi (●'◡'●)
+    - text: Tôi lúc nào cũng sẵn sàng để giúp đỡ mọi người (*/ω＼*)
+  utter_reply:
+    - text: Tôi đang rất tốt. Xin vui lòng cho tôi biết những gì tôi có thể làm cho bạn.
+    - text: Tôi đang rất tốt. Hãy cho tôi biết làm thế nào tôi có thể giúp bạn ngày hôm nay?
+  utter_help:
+    - text: Hãy cho tôi biết tên hoặc Id sản phẩm.
+    - text: Cho tôi biết sản phẩm mà bạn muốn tìm.
+    - text: Hãy cho tôi biết tất cả những sản phẩm mà bạn muốn tìm kiếm?
+  utter_anything_else:
+    - text: Hãy cho tôi biết khi nào bạn cần giúp đỡ.
+    - text: Hãy cho tôi biết nếu có bất cứ điều gì khác tôi có thể giúp bạn.
+  utter_ofc:
+    - text: Tôi chắc chắn có thể giúp bạn. 3 sản phẩm hàng đầu của {category}
+    - text: Chắc chắn, tôi có thể giúp bạn. 3 sản phẩm hàng đầu của {category}
+  utter_ofc_n:
+    - text: Tôi chắc chắn có thể giúp bạn. {number} sản phẩm hàng đầu của {category}
+    - text: Chắc chắn, tôi có thể giúp bạn. {number} sản phẩm hàng đầu của {category}
+  utter_awsid:
+    - text: Hi, tôi có thể tiềm kiếm sản phẩm theo tên hoặc Id 😊
+    - text: Hãy điền Id sản phẩm và tôi sẽ tìm giúp bạn tìm kiếm 😎
+    - text: Tôi sẽ tìm kiếm sản phẩm theo tên hoặc qua Id cho bạn nếu bạn muốn 😃
+  utter_id:
+    - text: Đây là thông tin cho sản phẩm có Id:{productid}
+    - text: Id:{productid} có các thông tin
+    - text: Kết quả tìm kiếm của Id:{productid}
+  utter_bye:
+    - text: Tạm biệt và chúc một ngày tốt lành😉 
+    - text: Xin chào,hãy cho tôi biết bất cứ khi nào bận cần giúp đỡ 🎉
+  utter_default:
+    - text: Tôi không chắc chắn những gì bạn đang nhắm đến
+    - text: Tôi xin lỗi nhưng tôi không thể hiểu được ý bạn.
+    - text: Tôi thực sự không hiểu được ý bạn là gì 🤷‍♂️
