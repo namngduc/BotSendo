@@ -1,0 +1,105 @@
+%YAML 1.1
+---
+actions:
+- action_restart
+- action_get_news
+- action_get_num
+- action_get_id
+- utter_ten
+- utter_greet
+- utter_reply
+- utter_help
+- utter_repfun
+- utter_ofc
+- utter_ofc_n
+- utter_awsid
+- utter_id
+- utter_bye
+- utter_default
+config:
+  store_entities_as_slots: true
+entities:
+- category
+- number
+- productid
+forms: []
+intents:
+- greet:
+    use_entities: true
+- hoi_ten:
+    use_entities: true
+- fine_ask:
+    use_entities: true
+- fine_normal:
+    use_entities: true
+- san_pham:
+    use_entities: true
+- san_pham_num:
+    use_entities: true
+- hoi_id:
+    use_entities: true
+- find_id:
+    use_entities: true
+- cam_on:
+    use_entities: true
+- bye:
+    use_entities: true
+slots:
+  category:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  number:
+    auto_fill: true
+    initial_value: null
+    max_value: 100.0
+    min_value: 1.0
+    type: rasa_core.slots.FloatSlot
+  productid:
+    auto_fill: true
+    initial_value: null
+    max_value: 99999999.0
+    min_value: 1.0
+    type: rasa_core.slots.FloatSlot
+templates:
+  utter_anything_else:
+  - text: Hãy cho tôi biết khi nào bạn cần giúp đỡ.
+  - text: Hãy cho tôi biết nếu có bất cứ điều gì khác tôi có thể giúp bạn.
+  utter_awsid:
+  - text: Hi, tôi có thể tiềm kiếm sản phẩm theo tên hoặc Id 😊
+  - text: Hãy điền Id sản phẩm và tôi sẽ tìm giúp bạn tìm kiếm 😎
+  - text: Tôi sẽ tìm kiếm sản phẩm theo tên hoặc qua Id cho bạn nếu bạn muốn 😃
+  utter_bye:
+  - text: Tạm biệt và chúc một ngày tốt lành😉
+  - text: Xin chào,hãy cho tôi biết bất cứ khi nào bận cần giúp đỡ
+  utter_default:
+  - text: Tôi không chắc chắn những gì bạn đang nhắm đến
+  - text: Tôi xin lỗi nhưng tôi không thể hiểu được ý bạn.
+  - text: Tôi thực sự không hiểu được ý bạn là gì 🤷‍♂️
+  utter_greet:
+  - text: Chào,Bạn cảm thấy thế nào?
+  - text: Hello,ngày hôm nay tốt đẹp chứ?
+  utter_help:
+  - text: Hãy cho tôi biết tên hoặc Id sản phẩm.
+  - text: Cho tôi biết sản phẩm mà bạn muốn tìm.
+  - text: Hãy cho tôi biết tất cả những sản phẩm mà bạn muốn tìm kiếm?
+  utter_id:
+  - text: Đây là thông tin cho sản phẩm có Id:{productid}
+  - text: Id:{productid} có các thông tin
+  - text: Kết quả tìm kiếm của Id:{productid}
+  utter_ofc:
+  - text: Tôi chắc chắn có thể giúp bạn. 3 sản phẩm hàng đầu của {category}
+  - text: Chắc chắn, tôi có thể giúp bạn. 3 sản phẩm hàng đầu của {category}
+  utter_ofc_n:
+  - text: Tôi chắc chắn có thể giúp bạn. {number} sản phẩm hàng đầu của {category}
+  - text: Chắc chắn, tôi có thể giúp bạn. {number} sản phẩm hàng đầu của {category}
+  utter_repfun:
+  - text: Phục vụ mọi người là niếm vui của tôi (●'◡'●)
+  - text: Tôi lúc nào cũng sẵn sàng để giúp đỡ mọi người (*/ω＼*)
+  utter_reply:
+  - text: Tôi đang rất tốt. Xin vui lòng cho tôi biết những gì tôi có thể làm cho
+      bạn.
+  - text: Tôi đang rất tốt. Hãy cho tôi biết làm thế nào tôi có thể giúp bạn ngày
+      hôm nay?
+  utter_ten:
+  - text: Tôi tên là Ro Bo 😁

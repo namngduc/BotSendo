@@ -1,0 +1,2 @@
+language: "vi"
+pipeline: "supervised_embeddings"
