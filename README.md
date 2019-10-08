@@ -13,14 +13,16 @@ WINDOWS: $ activate botvi
 ```
 ## Install latest Rasa stack
 ### Rasa NLU
-`pip install -U rasa_nlu`
+`pip install rasa_nlu`
 ### Rasa_core
-`pip install -U rasa_core`
+`pip install rasa_core`
 ### Rasa_core_sdk
-`pip install -U rasa_core_sdk`
+`pip install rasa_core_sdk`
 ## For dependencies
 ### Tensorflow (pipeline)
 `pip install rasa_nlu[tensorflow]`
+### Install bs4
+`pip install bs4`
 ## Files for Rasa NLU model
 * **data/nlu_vi.md** file contents training data for the NLU model.
 * **nlu_config.yml** file contains the configuration of the Rasa NLU pipeline:
@@ -58,7 +60,6 @@ this in the slack_credentials.yml file:
 ```
 slack:
   slack_token: "Bot User OAuth Access Token"
-  slack_channel: 
 ```
 **Ngrok** is multiplatform tunneling, reverse proxy software that establishes secure tunnels from a public endpoint such as the internet to a locally running network service while capturing all traffic for detailed inspection and replay.
 <br>[***Download ngrok***](https://ngrok.com/download)
