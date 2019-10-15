@@ -9,12 +9,15 @@
 ## intent: hoi_ten
 - tên gì
 - Tên cậu là gì?
+- Tên bạn là gì
 
 ## intent:fine_ask
-- Tôi khỏe, bạn thì sao?
-- Khỏe không cậu?
-- khỏe không?
-- bạn khỏe không
+- Tôi khỏe
+- Một ngày thoải mái
+- Ngày hôm nay rất đẹp
+- tôi đang rất tốt
+- Tôi ổn
+- một ngày đẹp trời
 
 ## intent:fine_normal
 - Tôi đang cần sự hỗ trợ. 
@@ -65,7 +68,7 @@
 - [18](number)[tai nghe](category)
 - [19](number)[máy ảnh](category)
 - [20](number)[văn phòng phẩm](category)
-
+- Tìm kiếm [10](number) sản phẩm [máy lạnh](category)
 
 ## intent:find_id
 - Hãy tìm cho tôi Id [18524010](productid)
@@ -77,12 +80,12 @@
 - Tìm cho tôi sản phẩm có Id:[240000](productid)
 - Id:[21788573](productid)
 - ID:[11119669](productid)
-- [21856157](productid)
-- [20134322](productid)
-- [16875084](productid)
-- [10928963](productid)
-- [21217020](productid)
-- [20397866](productid)
+- id [21856157](productid)
+- id[20134322](productid)
+- Id[16875084](productid)
+- ID[10928963](productid)
+- id[21217020](productid)
+- Id[20397866](productid)
 
 ## intent:cam_on
 - Cảm ơn bạn

@@ -55,8 +55,8 @@ templates:
     - text: Phục vụ mọi người là niếm vui của tôi (●'◡'●)
     - text: Tôi lúc nào cũng sẵn sàng để giúp đỡ mọi người (*/ω＼*)
   utter_reply:
-    - text: Tôi đang rất tốt. Xin vui lòng cho tôi biết những gì tôi có thể làm cho bạn.
-    - text: Tôi đang rất tốt. Hãy cho tôi biết làm thế nào tôi có thể giúp bạn ngày hôm nay?
+    - text: Xin vui lòng cho tôi biết những gì tôi có thể làm cho bạn.
+    - text: Hãy cho tôi biết làm thế nào tôi có thể giúp bạn ngày hôm nay?
   utter_help:
     - text: Hãy cho tôi biết tên hoặc Id sản phẩm.
     - text: Cho tôi biết sản phẩm mà bạn muốn tìm.
@@ -80,7 +80,7 @@ templates:
     - text: Kết quả tìm kiếm của Id:{productid}
   utter_bye:
     - text: Tạm biệt và chúc một ngày tốt lành😉 
-    - text: Xin chào,hãy cho tôi biết bất cứ khi nào bận cần giúp đỡ 🎉
+    - text: Tạm biệt,hãy cho tôi biết bất cứ khi nào bận cần giúp đỡ 🎉
   utter_default:
     - text: Tôi không chắc chắn những gì bạn đang nhắm đến
     - text: Tôi xin lỗi nhưng tôi không thể hiểu được ý bạn.

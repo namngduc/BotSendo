@@ -42,6 +42,8 @@
 - utter_greet
 * hoi_ten
 - utter_ten
+* fine_normal
+- utter_help
 * bye
 - utter_bye
 
@@ -50,6 +52,8 @@
 - utter_ten
 * fine_ask
 - utter_reply
+* fine_normal
+- utter_help
 * san_pham
 - utter_ofc
 - action_get_news
