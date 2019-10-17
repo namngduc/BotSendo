@@ -56,7 +56,7 @@ make actions
 ## How to deploy to Slack
 1. Go to your Slack app's settings page and use the **Bot User OAuth Access Token**:
 ![](https://github.com/namnguyenduc/BotSendo/blob/master/images/bot_token.png)
-<br>this in the slack_credentials.yml file:
+<br>this in the ***slack_credentials.yml*** file:
 ```
 slack:
   slack_token: "Bot User OAuth Access Token"
