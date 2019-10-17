@@ -59,15 +59,15 @@
 - Hãy cho tôi [10](number) sản phẩm về [Điện thoại samsung](category)
 - Kiếm cho tôi [2](number) sản phẩm [du lịch](category)
 - Cho tôi [10](number) sản phẩm [tivi](category)
-- [1](number)[máy xay](category)
-- [2](number)[phụ kiện tivi](category)
-- [3](number)[loa](category)
-- [14](number)[máy chơi game](category)
-- [16](number)[nhạc cụ](category)
-- [17](number)[giày cao gót](category)
-- [18](number)[tai nghe](category)
-- [19](number)[máy ảnh](category)
-- [20](number)[văn phòng phẩm](category)
+- [1](number)sản phẩm [máy xay](category)
+- [2](number)sản phẩm [phụ kiện tivi](category)
+- [3](number)sản phẩm [loa](category)
+- [14](number) sản phẩm [máy chơi game](category)
+- [16](number) sản phẩm [nhạc cụ](category)
+- [17](number) san pham [giày cao gót](category)
+- [18](number) san phâm [tai nghe](category)
+- [19](number) sản pham [máy ảnh](category)
+- [20](number) san phẩm [văn phòng phẩm](category)
 - Tìm kiếm [10](number) sản phẩm [máy lạnh](category)
 
 ## intent:find_id
@@ -89,6 +89,11 @@
 
 ## intent:cam_on
 - Cảm ơn bạn
+- Thank
+- thank
+- cam on 
+- cảm ơn vì đã hỗ trợ
+- cam on ban
 
 ## intent:bye
 - Chào nhé

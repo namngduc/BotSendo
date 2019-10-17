@@ -29,8 +29,8 @@ class ActionGetNewst(Action):
 {str(results + 1)}.ID của sản phẩm: {data[results]['product_id']}
 Tên sản phẩm: {data[results]['name']}
 Url sản phẩm: sendo.vn/{data[results]['cat_path']}
-Giá bán sản phẩm: {data[results]['price']}
-Giá bán sau khuyến mãi: {data[results]['final_price']}
+Giá bán sản phẩm: {data[results]['price']}đ
+Giá bán sau khuyến mãi: {data[results]['final_price']}đ
                             '''
                 dispatcher.utter_message(message)
         return[]
@@ -44,9 +44,10 @@ class ActionGetNum(Action):
         print(number)
         category = tracker.get_slot('category')
         print(category)
-        if category == None:
-            dispatcher.utter_message(
-                'Giá trị None chứng tỏ sản phẩm bạn đang tìm kiếm không có trong danh mục của chúng tôi 😢❗ Xin vui lòng điền lại!!!')
+        if category == None and number == None:
+            dispatcher.utter_message('Giá trị None chứng tỏ sản phẩm bạn đang tìm kiếm không có trong danh mục của chúng tôi 😢❗ Xin vui lòng điền lại!!!')
+        elif number == None:
+            dispatcher.utter_message('Vui lòng điền số lượng sản phẩm bạn muốn tìm ❗')
         else:
             url = 'https://mapi.sendo.vn/mob/product/search?p=1&q={category}.json'.format(category=category.split())
             response = requests.get(url).text
@@ -64,8 +65,8 @@ class ActionGetNum(Action):
 {str(results + 1)}.ID của sản phẩm: {data[results]['product_id']}
 Tên sản phẩm: {data[results]['name']}
 Url sản phẩm: sendo.vn/{data[results]['cat_path']}
-Giá bán sản phẩm: {data[results]['price']}
-Giá bán sau khuyến mãi: {data[results]['final_price']}
+Giá bán sản phẩm: {data[results]['price']}đ
+Giá bán sau khuyến mãi: {data[results]['final_price']}đ
                             '''
                     dispatcher.utter_message(message)
         return[]
@@ -107,7 +108,7 @@ class ActionGetid(Action):
             review = re.sub('[\xa0]', ' ', review)
             message = f'''
 Tên sản phẩm: {json_data['name']}
-Giá bán sản phẩm: {json_data['price']}
+Giá bán sản phẩm: {json_data['price']}đ
 ID của shop: {json_data['admin_id']}
 Giá khuyến mãi: {json_data['special_price']}
 Url của sản phẩm: sendo.vn/{json_data['cat_path']}

@@ -52,7 +52,7 @@ templates:
   utter_ten:
     - text: Tôi tên là Ro Bo 😁
   utter_repfun:
-    - text: Phục vụ mọi người là niếm vui của tôi (●'◡'●)
+    - text: Phục vụ mọi người là niềm vui của tôi (●'◡'●)
     - text: Tôi lúc nào cũng sẵn sàng để giúp đỡ mọi người (*/ω＼*)
   utter_reply:
     - text: Xin vui lòng cho tôi biết những gì tôi có thể làm cho bạn.
@@ -82,6 +82,6 @@ templates:
     - text: Tạm biệt và chúc một ngày tốt lành😉 
     - text: Tạm biệt,hãy cho tôi biết bất cứ khi nào bận cần giúp đỡ 🎉
   utter_default:
-    - text: Tôi không chắc chắn những gì bạn đang nhắm đến
+    - text: Tôi không biết bạn muốn nói gì🤔
     - text: Tôi xin lỗi nhưng tôi không thể hiểu được ý bạn.
     - text: Tôi thực sự không hiểu được ý bạn là gì 🤷‍♂️
