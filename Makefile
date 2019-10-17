@@ -1,6 +1,4 @@
-.PHONY: clean train-nlu train-core cmdline server
 
-TEST_PATH=./
 
 help:
 	@echo "    clean"
@@ -9,7 +7,7 @@ help:
 	@echo "        Trains a new nlu model using the projects Rasa NLU config"
 	@echo "    train-core"
 	@echo "        Trains a new dialogue model using the story training data"
-	@echo "    actions"
+	@echo "    action"
 	@echo "        Starts the server for custom action."
 	@echo "    cmdline"
 	@echo "       This will load the assistant in your terminal or host for you to chat."
@@ -30,7 +28,7 @@ train-nlu:
 train-core:
 	python -m rasa_core.train -d domain.yml -s data/stories.md -o models/dialogue -c policy.yml
 	
-actions:
+action:
 	python -m rasa_core_sdk.endpoint --actions actions
 	
 cmdline:
