@@ -54,7 +54,7 @@ matplotlib==2.2.4
 mattermostwrapper==2.1
 mock==3.0.5
 networkx==2.3
-numpy==1.16.4
+numpy==1.22.0
 packaging==18.0
 pika==0.12.0
 prompt-toolkit==2.0.10
